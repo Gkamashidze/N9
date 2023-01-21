@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: dela;
+    src: url(./src/fonts/dela_regular.ttf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(./src/fonts/mont.ttf);
+}
+
 body {
     background-color: #F6F5F4;
 
@@ -25,6 +35,12 @@ a {
 
     padding-top: 24px;
     padding-bottom: 24px;
+
+    margin-top: 24px;
+}
+
+hr {
+    margin-top: 24px;
 }
 
 .vector1 {
@@ -44,6 +60,7 @@ a {
 
 ul li {
     display: inline;
+    
 }
 
 #nav_box_container2 {
@@ -57,29 +74,38 @@ ul li {
 
 #section1 {
     width: 1180px;
-height: 84px;
+    height: 84px;
 
-margin-top: 40px;
+    margin-top: 40px;
 
-background: #FFFFFF;
-border-radius: 14px;
+    background: #FFFFFF;
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #section2 {
     width: 830px;
-height: 40px;
+    height: 40px;
 
-margin-top: 40px;
+    margin-top: 40px;
 
-background-color: red;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+    /* background-color: red; */
 }
 
 #section3 {
     width: 926px;
-height: 336px;
-background: #FFFFFF;
-box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
-border-radius: 14px;
+    height: 336px;
+    background: #FFFFFF;
+    box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
+    border-radius: 14px;
 
-margin-top: 40px;
+    margin-top: 40px;
 }
