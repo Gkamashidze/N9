@@ -19,6 +19,7 @@ body {
 
     display: grid;
     justify-content: center;
+
 }
 
 a {
@@ -60,7 +61,7 @@ hr {
 
 ul li {
     display: inline;
-    
+
 }
 
 #nav_box_container2 {
@@ -77,6 +78,7 @@ ul li {
     height: 84px;
 
     margin-top: 40px;
+
 
     background: #FFFFFF;
     border-radius: 14px;
@@ -95,9 +97,6 @@ ul li {
     display: flex;
     justify-content: space-between;
 
-    
-
-    /* background-color: red; */
 }
 
 #section3 {
@@ -108,4 +107,117 @@ ul li {
     border-radius: 14px;
 
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#pages {
+    width: 864px;
+    height: 44px;
+
+
+    margin-bottom: 140px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.pages_container {
+    display: flex;
+    justify-content: space-around;
+
+    width: 567px;
+    height: 44px;
+}
+
+.circle {
+    background-color: transparent;
+    border: 3px solid #2B788B;
+    height: 44px;
+    border-radius: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 45px;
+
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #5996A5;
+    font-family: mont;
+}
+
+.dot {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    color: #757575;
+}
+
+.footer {
+    background-color: #F6F5F4;
+    padding-bottom: 40px;
+}
+
+hr {
+    color: solid #E0E0E0;
+    margin-top: 20px;
+
+    border: 1.20466px solid #E0E0E0;
+
+}
+
+footer>.ftr_maindiv1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr_maindiv2 {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    display: flex;
+}
+
+.copyright>span {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #757575;
+
+}
+
+.ftr_div1 {
+    width: 414px;
+    height: 14px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr_div2 {
+    width: 197px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
 }
